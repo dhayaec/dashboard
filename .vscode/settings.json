@@ -1,0 +1,58 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.sortImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules/": true,
+    "package-lock.json": true,
+    "**/.next": true,
+    "**/dist/": true,
+    "next-env.d.ts": true,
+    ".husky": true,
+    "*.tsbuildinfo": true,
+    "*.lock": true,
+    "*.swc": true,
+    "**/coverage": true
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "cSpell.words": [
+    "AUTOINCREMENT",
+    "axios",
+    "headlessui",
+    "heroicons",
+    "imgix",
+    "kanye",
+    "olleh",
+    "reduxjs",
+    "semibold",
+    "Stockr",
+    "tailwindcss",
+    "tailwindui",
+    "testid",
+    "todos",
+    "vercel"
+  ],
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.singleQuote": true,
+  "files.autoSave": "onFocusChange",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
