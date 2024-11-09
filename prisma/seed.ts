@@ -4,8 +4,8 @@ import {
   invoices,
   revenue,
   users,
-} from '../src/lib/placeholder-data';
-import prisma from '../src/lib/prisma';
+} from '../src/app/lib/placeholder-data';
+import prisma from '../src/app/lib/prisma';
 
 async function main() {
   // Seed users with hashed passwords

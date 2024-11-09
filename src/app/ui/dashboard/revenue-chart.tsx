@@ -1,5 +1,5 @@
-import { fetchRevenue } from '@/lib/data';
-import { generateYAxis } from '@/lib/utils/utils';
+import { fetchRevenue } from '@/app/lib/data';
+import { generateYAxis } from '@/app/lib/utils/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
 
 export default async function RevenueChart() {

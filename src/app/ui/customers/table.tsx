@@ -1,4 +1,4 @@
-import { FormattedCustomersTable } from '@/lib/definitions';
+import { FormattedCustomersTable } from '@/app/lib/definitions';
 import Image from 'next/image';
 import Search from '../search';
 

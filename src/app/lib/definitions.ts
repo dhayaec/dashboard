@@ -38,8 +38,9 @@ export type CustomerField = {
 };
 
 export type InvoiceForm = {
-  id: string;
+  id: string; // Will be created on the database
   customer_id: string;
-  amount: number;
+  amount: number; // Stored in cents
   status: 'pending' | 'paid';
+  date: string;
 };
